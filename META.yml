@@ -1,0 +1,32 @@
+---
+abstract: 'an ORM for CPAN packages available in Mandriva'
+author:
+  - 'Jerome Quelin'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+generated_by: 'Dist::Zilla version 1.100160'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: ORDB-CPAN-Mandriva
+provides:
+  ORDB::CPAN::Mandriva:
+    file: lib/ORDB/CPAN/Mandriva.pm
+    version: 1.100230
+  ORDB::CPAN::Mandriva::Module:
+    file: lib/ORDB/CPAN/Mandriva/Module.pm
+    version: 1.100230
+requires:
+  English: 0
+  File::Find: 0
+  File::Temp: 0
+  ORLite::Mirror: 1.12
+  Test::More: 0
+  perl: 5.008005
+resources:
+  homepage: http://search.cpan.org/dist/ORDB-CPAN-Mandriva
+  repository: http://github.com/jquelin/ordb-cpan-mandriva
+version: 1.100230
